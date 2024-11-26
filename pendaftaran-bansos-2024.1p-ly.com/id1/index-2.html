@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Biodata</title>
+    <style>
+        /* Reset margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f0f8ff; /* Biru langit */
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .form-biodata {
+            background-color: #e0f7fa; /* Biru muda */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #007bff; /* Biru yang lebih terang */
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-size: 14px;
+            color: #007bff;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="date"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #007bff;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 0;
+            width: 100%;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        /* Responsif untuk perangkat mobile */
+        @media (max-width: 768px) {
+            .form-biodata {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form class="form-biodata">
+            <h2>Formulir Biodata</h2>
+            <label for="nama">Nama Sesuai KTP</label>
+            <input type="text" id="nama" name="nama" required>
+            <label for="kerja">Pengalaman Kerja</label>
+            <input type="text" id="kerja" name="Pengalaman" required>
+
+            <label for="noKtp">Nomor KTP</label>
+            <input type="text" id="noKtp" name="noKtp" required>
+
+            <label for="ttl">Tanggal Lahir</label>
+            
+                <!-- Tambahkan opsi lainnya -->
+            
+            <input type="date" id="tanggalLahir" name="tanggalLahir" required>
+
+            <label for="status">Status Perkawinan</label>
+            <select id="status" name="status" required>
+                <option value="">Pilih Status</option>
+                <option value="Belum Menikah">Belum Menikah</option>
+                <option value="Menikah">Menikah</option>
+                <option value="Cerai">Cerai</option>
+            </select>
+
+            <label for="alamat">Alamat</label>
+            <input type="text" id="alamat" name="alamat" required>
+
+            <label for="email">Alamat Email Aktif</label>
+            <input type="email" id="email" name="email" required>
+            <p class="text-center"><a href="index-2.html" class="btn btn-lg btn-block btn-mk" style= "background-color: #007bff;
+            color: white;
+            display: flex;
+            justify-content: center;
+            border: none;
+            padding: 10px 0;
+            width: 100%;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 20px;
+            cursor: pointer;"><span
+                id="ctl00_RecipientMasterContent_lblGoBack_NoResult">KIRIM</span></a>
+    </p>
+           
+        </form>
+    </div>
+</body>
+</html>

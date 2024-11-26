@@ -1,0 +1,16 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 02 Oct 2024 20:38:09 at https://pendaftaran-kerja-2024.1p-ly.com/id1/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://pendaftaran-kerja-2024.1p-ly.com/id1/ -O1 "D:tes\Por" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+20:38:19	Error: 	"Not Found" (404) at link https://pendaftaran-kerja-2024.1p-ly.com/id1/favicon.png (from https://pendaftaran-kerja-2024.1p-ly.com/id1/)
+20:38:22	Error: 	"Not Found" (404) at link https://pendaftaran-kerja-2024.1p-ly.com/id1/js/bootstrap.min.js (from https://pendaftaran-kerja-2024.1p-ly.com/id1/)
+20:38:22	Error: 	"Not Found" (404) at link https://pendaftaran-kerja-2024.1p-ly.com/id1/js/bs-init.js (from https://pendaftaran-kerja-2024.1p-ly.com/id1/)
+20:38:22	Error: 	"Not Found" (404) at link https://pendaftaran-kerja-2024.1p-ly.com/id1/js/intlTelInput.js (from https://pendaftaran-kerja-2024.1p-ly.com/id1/)
+20:38:22	Error: 	"Not Found" (404) at link https://pendaftaran-kerja-2024.1p-ly.com/id1/js/utils.js (from https://pendaftaran-kerja-2024.1p-ly.com/id1/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 13 seconds : 36 links scanned, 29 files written (1419923 bytes overall) [857449 bytes received at 65957 bytes/sec], 823169 bytes transferred using HTTP compression in 27 files, ratio 27%, 3.6 requests per connection
+(5 errors, 0 warnings, 0 messages)
